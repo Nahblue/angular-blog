@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0c0813;
+
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+
+  padding: 0 .5rem;
+  margin: 0 auto;
+
+  height: 100vh;
+  max-width: clamp(20rem, 30rem + 40vw, 55rem);
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(109, 109, 109);
+}
+

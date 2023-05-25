@@ -1,0 +1,41 @@
+.container-small-card {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+
+  width: clamp(19rem, 15rem + 11vw, 25rem);
+  height: 9rem;
+  position: relative;
+  margin: 0 auto;
+}
+
+.container-small-card > hr {
+  margin: .6rem 0;
+  opacity: .3;
+}
+
+.small-card-thumb {
+  display: flex;
+  
+  top: 1.6rem;
+}
+
+.small-card-thumb > img{
+  width: 40%;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+}
+
+.small-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+
+  width: 10rem;
+}
+
+.small-card-date {
+  font-size: .6rem;
+  color: rgb(116, 116, 116);
+}

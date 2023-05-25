@@ -1,0 +1,34 @@
+.container-big-card {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+
+  width: clamp(19rem, 15rem + 11vw, 25rem);
+
+  margin: .9rem auto;
+  
+}
+
+.big-card-thumb > img{
+  
+  width: 100%;
+  object-fit: cover;
+}
+
+.big-card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  gap: .5rem;
+}
+
+.big-card-date {
+  font-size: .6rem;
+  color: rgb(116, 116, 116);
+}
+
+.big-card-description {
+  font-size: .9rem;
+  color: rgb(116, 116, 116)
+}
+
