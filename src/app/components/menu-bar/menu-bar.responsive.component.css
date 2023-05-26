@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+  .container-menu-bar {
+    margin-left: 3rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container-menu-bar {
+    margin-left: 5rem;
+  }
+}

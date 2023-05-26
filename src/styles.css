@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
 
   height: 100vh;
-  max-width: clamp(20rem, 30rem + 40vw, 55rem);
+  width: 20rem;
 
 }
 
@@ -25,6 +25,17 @@ a {
 }
 
 a:hover {
-  color: rgb(109, 109, 109);
+  color: #a56df5;
 }
 
+@media (min-width: 768px) {
+  body {
+    width: 48rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    width: 60rem;
+  }
+}

@@ -4,13 +4,13 @@
   gap: .3rem;
 
   width: clamp(19rem, 15rem + 11vw, 25rem);
-  height: 9rem;
+  height: 7rem;
   position: relative;
   margin: 0 auto;
 }
 
 .container-small-card > hr {
-  margin: .6rem 0;
+  margin-bottom: .6rem;
   opacity: .3;
 }
 
@@ -22,6 +22,8 @@
 
 .small-card-thumb > img{
   width: 40%;
+  max-height: 4.5rem;
+
   object-fit: cover;
   position: absolute;
   right: 0;

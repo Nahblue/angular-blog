@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+  .container-small-card {
+    width: 22rem;
+  }
+
+  .small-card-info {
+    width: 12rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container-small-card {
+    width: 28rem;
+    height: 9rem;
+  }
+
+  .small-card-thumb > img{
+    max-height: 6.5rem;
+  }
+
+  .small-card-info {
+    width: 15rem;
+  }
+}

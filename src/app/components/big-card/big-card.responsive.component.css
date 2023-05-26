@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+  .container-big-card {
+    width: 22rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container-big-card {
+    width: 28rem;
+  }
+}

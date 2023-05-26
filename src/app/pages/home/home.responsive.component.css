@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+  .articles {
+    width: 47rem;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+    justify-content: center;
+  }
+
+  .articles-main {
+    width: 22rem;
+  }
+
+  .articles-others {
+    width: 22rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .articles {
+    width: 59rem;
+  }
+
+  .articles-main {
+    width: 28rem;
+  }
+
+  .articles-others {
+    width: 28rem;
+  }
+}

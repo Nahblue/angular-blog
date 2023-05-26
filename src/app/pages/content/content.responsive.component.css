@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+  .content-cover > hr {
+    width: 47rem;
+  }
+  
+  .content-cover > img {
+    width: 28rem;
+  }
+
+  .content-info {
+    width: 28rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .content-cover > hr {
+    width: 59rem;
+  }
+  
+  .content-cover > img {
+    width: 35rem;
+  }
+  
+  .content-info {
+    width: 35rem;
+  }
+}

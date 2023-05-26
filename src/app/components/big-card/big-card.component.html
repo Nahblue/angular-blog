@@ -1,21 +1,21 @@
 <div class="container-big-card">
   <div class="big-card-thumb">
     <img 
-      src="https://blog.iprocess.com.br/wp-content/uploads/2021/11/placeholder.png" 
+      src="{{ photoCover }}" 
       alt=""
       srcset=""
       >
   </div>
   <div class="big-card-info">
     <div class="big-card-date">
-      <span>25 de Maio, 2023</span>
+      <span>{{ cardDate }}</span>
     </div>
     <div class="big-card-title">
-      <a href="#" target="_blank"><h2>Título da notícia</h2></a>
+      <a [routerLink]="['content', Id]"><h2>{{ cardTitle }}</h2></a>
     </div>
     <div class="big-card-description">
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        {{ cardDescription }}
       </p>
     </div>
   </div>

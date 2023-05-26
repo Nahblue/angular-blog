@@ -1,16 +1,16 @@
 .container-big-card {
   display: flex;
   flex-direction: column;
-  gap: .3rem;
+  gap: .8rem;
 
-  width: clamp(19rem, 15rem + 11vw, 25rem);
+  width: 19rem;
 
-  margin: .9rem auto;
+  margin: 0 auto 2rem;
   
 }
 
 .big-card-thumb > img{
-  
+  max-height: 15rem;
   width: 100%;
   object-fit: cover;
 }
