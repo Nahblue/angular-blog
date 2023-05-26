@@ -17,7 +17,7 @@ Projeto criado com Angular, um blog de notícias fictício  focado na componenti
 <br>
 
 <p align="center">
-  <img alt="projeto Nosso Trabalho" src="" width="80%">
+  <img alt="projeto K News blog" src="https://i.imgur.com/aUzm2Eg.png" width="80%">
 </p>
 
 ## 🚀 Tecnologias
