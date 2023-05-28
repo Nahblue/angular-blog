@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Um blog de notícias responsivo
 
-
+[Link do projeto online](https://angular-blog-six.vercel.app/)
 
 ## :memo: Licença
 
