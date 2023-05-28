@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Um blog de notícias responsivo
 
-- [Visite o projeto online]()
+
 
 ## :memo: Licença
 
